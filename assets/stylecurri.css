@@ -1,0 +1,105 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #121212;
+    color: #E0E0E0;
+}
+
+header {
+    background-color: #1F1F1F;
+    color: #76FF03;
+    text-align: center;
+    padding: 1.5rem 0;
+    border-bottom: 2px solid #76FF03;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    border-bottom: 2px solid #76FF03;
+}
+
+nav a {
+    color: #E0E0E0;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #76FF03;
+    color: #121212;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+h2 {
+    color: #76FF03;
+    border-bottom: 2px solid #76FF03;
+    padding-bottom: 0.5rem;
+}
+
+.section {
+    margin-bottom: 2rem;
+}
+
+.section h3 {
+    color: #B2FF59;
+}
+
+.section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section ul li {
+    background-color: #1F1F1F;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-left: 4px solid #76FF03;
+}
+
+.section ul ul {
+    margin-left: 1rem;
+    border-left: 2px solid #76FF03;
+}
+
+.section ul ul li {
+    border-left: none;
+}
+
+a {
+    color: #76FF03;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #1F1F1F;
+    color: #E0E0E0;
+    border-top: 2px solid #76FF03;
+}
+
