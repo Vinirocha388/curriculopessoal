@@ -164,4 +164,9 @@ footer {
       background-position: right bottom;
     }
   }
-
+.container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Altura do contêiner, por exemplo, 100% da altura da viewport */
+}
