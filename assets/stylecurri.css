@@ -87,7 +87,7 @@ h2 {
 }
 
 a {
-    color: #030303;
+    color: #41eb0e;
     text-decoration: none;
 }
 
@@ -98,15 +98,15 @@ a:hover {
 footer {
     text-align: center;
     padding: 1rem 0;
-    background-color: #1F1F1F;
-    color: #121111;
+    background-color: #76FF03;
+    color: #0f0f0f;
     border-top: 2px solid #76FF03;
 }
 
 .beautiful-button {
     position: relative;
     display: inline-block;
-    background: linear-gradient(to bottom, #06f64e, #07ec1d);
+    background: linear-gradient(to bottom, #0ba339, #077412);
    /* Gradient background */
     color: rgb(6, 2, 2);
    /* White text color */
@@ -132,7 +132,7 @@ footer {
   
   /* Hover animation */
   .beautiful-button:hover {
-    background: linear-gradient(to bottom, #08e94b, #0bed3c);
+    background: linear-gradient(to bottom, #05802a, #07641b);
     animation: button-particles 1s ease-in-out infinite;
     transform: translateY(-2px);
   }
@@ -164,9 +164,12 @@ footer {
       background-position: right bottom;
     }
   }
-.container {
-    display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    height: 100vh; /* Altura do contêiner, por exemplo, 100% da altura da viewport */
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.beautiful-button {
+    text-align: center;
 }
